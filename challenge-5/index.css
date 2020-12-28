@@ -1,0 +1,92 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.login {
+  width: 60%;
+  display: flex;
+  min-width: 518px;
+  position: relative;
+  align-items: center;
+}
+
+.title {
+  width: 450px;
+  font-size: 90px;
+  margin-left: 15%;
+  color: #ffffff;
+  font-weight: bold;
+  position: absolute;
+}
+
+.banner {
+  width: 40%;
+  display: flex;
+  min-width: 430px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerImage {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+}
+
+.networks-social {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.form {
+  margin-top: 30px;
+  color: dimgrey;
+}
+
+.input {
+  width: 380px;
+  height: 25px;
+  margin-top: 5px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+}
+
+.change-password {
+  float: right;
+}
+
+.checkbox {
+  width: 1.3em;
+  height: 1.3em;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-bottom: 6px;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  -webkit-appearance: none;
+}
+
+.checkbox:hover {
+  background-color: #d3d5d6;
+}
+
+.button {
+  width: 200px;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  background-color: #8364f1;
+}
