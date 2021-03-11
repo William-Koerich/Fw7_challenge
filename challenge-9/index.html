@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+  <button id="button-filter" onclick="showFilters()">Filtros</button>
+  <div id="container-filter" style="display: block">
+    <h2>Filters</h2>
+    <hr>
+    <div id="filters">
+      <label for="size-password">Tamanho para senha:</label> <br>
+      <input id="size-password" type="number" />
+      <br>
+      <br>
+
+      <label for="capital-letters">Letras maiusculas</label> <br>
+      <select id="capital-letters">
+        <option value="0">Não</option>
+        <option value="1">Sim</option>
+      </select>
+
+      <br>
+      <br>
+      <label for="number">Numeros:</label> <br>
+      <select id="number">
+        <option value="0">Não</option>
+        <option value="1">Sim</option>
+      </select>
+
+      <br>
+      <br>
+      <label for="special-character">Caracteres especiais</label> <br>
+      <select id="special-character">
+        <option value="0">Não</option>
+        <option value="1">Sim</option>
+      </select>
+    </div>
+  </div>
+  <div id="container-password">
+    <h1>Password</h1>
+    <hr>
+    <input type="text" id="input-password" readonly placeholder="Password" />
+    <button id="button-generate" onclick="generatePassword()">Generate</button>
+  </div>
+</body>
+
+</html>
+<script src="index.js"></script>
